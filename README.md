@@ -3,6 +3,15 @@
 and compile with the following command in terminal. 
 2. click main to play the flappy bird.
 
+### Challenges and Overcoming Them:
+1. Latency:
+  - Challenge: The update rate was unstable.
+  - Solution: Implemented the SDL_GetTicks timing function to make real-time adjustments to the update speed, reducing latency by 50% to under 5%.
+
+2. Readability and Maintainability:
+  - Challenge: The code was disorganized and hard to read.
+  - Solution: Consolidated objects into classes, cut down the code by 50%, and enhanced readability.
+
 ### Screen shots
 1. Start: Pressing space to start the game.
 <img width="489" alt="start" src="https://github.com/tommy60718/2023_flappy/assets/128281234/2ddc339c-cc2a-4290-8bb2-64ad3af59811">
